@@ -7,7 +7,6 @@ name = "Introduction"
 identifier = "introduction"
 url = "/introduction"
 
-
 [[menu.main]]
 name = "Software Development Process"
 identifier = "software-development-process"
@@ -29,7 +28,17 @@ identifier = "requirements"
 url = "/requirements"
 
 [[menu.main]]
+name = "Training"
+identifier = "training"
+url = "/training"
+
+[[menu.main]]
+name = "Design"
+identifier = "design"
+url = "/design"
+
+[[menu.main]]
 name = "Test"
 identifier = "test"
-parent = "introduction"
+# parent = "introduction"
 url = "/test"
