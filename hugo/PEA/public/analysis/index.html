@@ -95,8 +95,8 @@
             opacity: 0.3;
         }
 
-        .navgation ul li {
-            padding: 10px;
+        ul.subnav li {
+            padding-top: 10px;
         }
 
         .navigation ul li a {
@@ -183,36 +183,29 @@
     <div class="banner">
         <div class="content">
             <div class="header">
-                <h2 class="title">{{ $.Site.Title }}</h2>
+                <h2 class="title">Program Exit Assessment</h2>
                 <h3 class="subtitle"></h3>
             </div>
             <div class="navigation">
                 <ul>
-                    {{ $currentPage := . }}
-                    {{ range .Site.Menus.main }}
-                        {{ if .HasChildren }}
-                            <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-                                <a href="{{ .URL }}">
-                                    {{ .Pre }}
-                                    <span>{{ .Name }}</span>
+                    
+                    
+                        
+                            <li class="">
+                                <a href="../introduction">
+                                    
+                                    <span>Introduction</span>
                                 </a>
                                 <ul class="subnav">
-                                    {{ range .Children }}
-                                        <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                                            <a href="{{ .URL }}">{{ .Name }}</a>
+                                    
+                                        <li class="">
+                                            <a href="../test">Test</a>
                                         </li>
-                                    {{ end }}
+                                    
                                 </ul>
                             </li>
-                        {{ else }}
-                            <li>
-                                <a href="{{ .URL }}">
-                                    {{ .Pre }}
-                                    <span>{{ .Name }}</span>
-                                </a>
-                            </li>
-                        {{ end }}
-                    {{ end }}
+                        
+                    
                 </ul>
             </div>
         </div>
@@ -221,27 +214,66 @@
         <div class="header">
             <div class="content">
                 <div class="split">
-                    <h1>{{ .Title }}</h1>
+                    <h1>Analysis</h1>
                     
                 </div>
                 <hr>
             </div>
         </div>
         <div class="content">
-            {{ $toc := .TableOfContents}}    
-            {{ range $index, $element := split .Content "</p>" }}
                 
-                {{ if eq $index 0 }}
-                        <div class="split">{{ $element | safeHTML }}</p>
+            
+                
+                
+                        <div class="split">
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac. Quisque rhoncus dapibus felis, quis pellentesque odio semper et. Aliquam non lectus enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                         <div class="TableOfContents">
                             <h3>Table of Contents</h3>     
-                            {{ $toc }}
+                            <nav id="TableOfContents">
+<ul>
+<li><a href="#sub-section-1">Sub section 1</a></li>
+<li><a href="#sub-section-2">Sub Section 2</a></li>
+<li><a href="#sub-section-2-1">Sub Section 2</a></li>
+</ul>
+</nav>
                         </div>
                     </div>
-                    {{ else }}
-                        {{ $element | safeHTML }}</p>
-                {{ end }}
-        {{ end }}
+                    
+        
+                
+                
+                        
+
+<h1 id="sub-section-1">Sub section 1</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac. Quisque rhoncus dapibus felis, quis pellentesque odio semper et. Aliquam non lectus enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                
+        
+                
+                
+                        
+
+<h1 id="sub-section-2">Sub Section 2</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac. Quisque rhoncus dapibus felis, quis pellentesque odio semper et. Aliquam non lectus enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                
+        
+                
+                
+                        
+
+<h1 id="sub-section-2-1">Sub Section 2</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac. Quisque rhoncus dapibus felis, quis pellentesque odio semper et. Aliquam non lectus enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                
+        
+                
+                
+                        
+</p>
+                
+        
         </div>
         <div class="footer">
             <div class="content">

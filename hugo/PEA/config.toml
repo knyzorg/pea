@@ -1,4 +1,35 @@
-baseURL = "localhost"
 languageCode = "en-us"
 title = "Program Exit Assessment"
-description = "Banner area"
+relativeURLs = true
+
+[[menu.main]]
+name = "Introduction"
+identifier = "introduction"
+url = "/introduction"
+
+
+[[menu.main]]
+name = "Software Development Process"
+identifier = "software-development-process"
+url = "/software-development-process"
+
+[[menu.main]]
+name = "Working Environmnet"
+identifier = "working-environment"
+url = "/working-environment"
+
+[[menu.main]]
+name = "Project Management"
+identifier = "project-management"
+url = "/project-management"
+
+[[menu.main]]
+name = "Requirements"
+identifier = "requirements"
+url = "/requirements"
+
+[[menu.main]]
+name = "Test"
+identifier = "test"
+parent = "introduction"
+url = "/test"
