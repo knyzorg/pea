@@ -5,14 +5,11 @@ relativeURLs = true
 [[menu.main]]
 weight = 1
 name = "Initiation"
-url = "/process"
 
 [[menu.main]]
 weight = 2
 name = "Construction"
-url = "/requirements"
 
 [[menu.main]]
 weight = 3
 name = "Release"
-url = "/deployment"

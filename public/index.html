@@ -8,10 +8,6 @@
     
 
     
-
-    
-
-    
         <!DOCTYPE html>
 <html lang="en">
 
@@ -20,179 +16,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Program Exit Assessment &mdash; Introduction</title>
+    <title>Program Exit Assessment &mdash; Home</title>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-    <style>
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4 {
-            color: #333;
-            margin: auto;
-            font-weight: normal;
-            text-align: center;
-        }
-
-        p {
-            font-size: 18px;
-            text-indent: 2em;
-            text-align: justify;
-            flex: 2;
-        }
-
-        p::first-letter {
-            color: #6A5F4B;
-        }
-
-        a {
-            color: #E9A821;
-            text-decoration: none;
-        }
-        a:hover {
-            color: #6A5F4B;
-            text-decoration: underline;
-        }
-
-        .banner {
-            color: #eee;
-            background-image: linear-gradient(120deg, #E9A821, #6A5F4B);
-            padding: 45px 0;
-        }
-
-        .title {
-            
-            font-size: 3.2em;
-        }
-        .banner .title {
-            color: #fff;
-        }
-
-        .subtitle {
-            color: #eee;
-            font-size: 1.2em;
-        }
-
-        .navigation {
-            padding: 35px;
-        }
-
-        .navigation ul {
-            list-style-type: none;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: stretch;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            flex-wrap: wrap;
-        }
-
-        .navigation ul li {
-            display: inline-block;
-            text-align: center;
-            margin: 5px;
-        }
-
-
-        ul.subnav {
-            flex-direction: column;
-            max-height: 0;
-            overflow: hidden;
-            flex-wrap: nowrap;
-            transition: all 0.3s ease-out;
-            opacity: 0.3;
-        }
-
-        .navgation ul li {
-            padding: 10px;
-        }
-
-        .navigation ul li a {
-            color: #ddd;
-            background-color: #ffffff10;
-            padding: 10px;
-            display: inline-block;
-            border-radius: 5px;
-            border: 1px solid #eeeeee70;
-            text-align: center;
-        }
-
-        .navigation ul li a:hover {
-            background-color: #ffffff30;
-            text-decoration: none;
-        }
-
-        .navigation ul li:hover ul.subnav {
-            max-height: 500px;
-            transition: all 0.3s ease-in;
-            opacity: 1;
-        }
-
-        .container {
-            padding: 10px;
-            background-color: #fff;
-            color: #696969;
-        }
-
-        .header {
-            text-align: center;
-            padding: 15px;
-        }
-
-        .content {
-            max-width: 750px;
-            width: 100%;
-            margin: auto;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 10px;
-        }
-
-        .active {
-            font-weight: bold;
-        }
-
-        .TableOfContents {
-            width: 300px;
-            max-width: 100%;
-            background-color: #eeeeee70;
-            border: 1px solid #eee;
-            margin: auto;
-            text-align: left;
-            flex: 1;
-            padding-top: 10px;
-            margin: 10px;
-        }
-
-        hr {
-            color: #E9A821;
-        }
-
-        .split {
-            display: flex;
-            flex-direction: row;
-            align-content: stretch;
-        }
-        @media screen and (max-width: 600px) {
-            
-        .split {
-            display: flex;
-            flex-direction: column-reverse;
-            align-content: stretch;
-        }
-        }
-
-    </style>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
@@ -208,91 +34,104 @@
                     
                         
                             <li>
-                                <a href="./analysis/">
+                                <a href="./home/">
                                     
-                                    <span>Analysis</span>
+                                    <span>Home</span>
                                 </a>
                             </li>
                         
                     
                         
                             <li>
-                                <a href="./introduction/">
+                                <a href="#" class="dropdown">
                                     
-                                    <span>Introduction</span>
+                                    <span>Initiation</span>
+                                </a>
+                                <ul class="subnav">
+                                    
+                                        <li>
+                                            <a href="./process/">Process</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="./project-management/">Project Management</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="./team-environment/">Team Environment</a>
+                                        </li>
+                                    
+                                </ul>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="#" class="dropdown">
+                                    
+                                    <span>Construction</span>
+                                </a>
+                                <ul class="subnav">
+                                    
+                                        <li>
+                                            <a href="./requirements/">Requirements</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="./analysis/">Analysis</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="./design/">Design</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="./implementation/">Implementation</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="./test/">Test</a>
+                                        </li>
+                                    
+                                </ul>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="./maintenance/">
+                                    
+                                    <span>Maintenance</span>
                                 </a>
                             </li>
                         
                     
                         
                             <li>
-                                <a href="./design">
+                                <a href="./communications/">
                                     
-                                    <span>Design</span>
+                                    <span>Communications</span>
                                 </a>
                             </li>
                         
                     
                         
                             <li>
-                                <a href="./introduction">
+                                <a href="#" class="dropdown">
                                     
-                                    <span>Introduction</span>
+                                    <span>Release</span>
                                 </a>
-                            </li>
-                        
-                    
-                        
-                            <li>
-                                <a href="./project-management">
+                                <ul class="subnav">
                                     
-                                    <span>Project Management</span>
-                                </a>
-                            </li>
-                        
-                    
-                        
-                            <li>
-                                <a href="./requirements">
+                                        <li>
+                                            <a href="./deployment/">Deployment</a>
+                                        </li>
                                     
-                                    <span>Requirements</span>
-                                </a>
-                            </li>
-                        
-                    
-                        
-                            <li>
-                                <a href="./software-development-process">
+                                        <li>
+                                            <a href="./training/">Training</a>
+                                        </li>
                                     
-                                    <span>Software Development Process</span>
-                                </a>
-                            </li>
-                        
-                    
-                        
-                            <li>
-                                <a href="./test">
-                                    
-                                    <span>Test</span>
-                                </a>
-                            </li>
-                        
-                    
-                        
-                            <li>
-                                <a href="./training">
-                                    
-                                    <span>Training</span>
-                                </a>
-                            </li>
-                        
-                    
-                        
-                            <li>
-                                <a href="./working-environment">
-                                    
-                                    <span>Working Environmnet</span>
-                                </a>
+                                </ul>
                             </li>
                         
                     
@@ -304,7 +143,7 @@
         <div class="header">
             <div class="content">
                 <div class="split">
-                    <h1>Introduction</h1>
+                    <h1>Home</h1>
                     
                 </div>
                 <hr>
@@ -318,16 +157,18 @@
                         <div class="split">
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac. Quisque rhoncus dapibus felis, quis pellentesque odio semper et. Aliquam non lectus enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        
                         <div class="TableOfContents">
                             <h3>Table of Contents</h3>     
                             <nav id="TableOfContents">
 <ul>
-<li><a href="#sub-section-1">Sub section 1</a></li>
-<li><a href="#sub-section-2">Sub Section 2</a></li>
-<li><a href="#sub-section-2-1">Sub Section 2</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#pea-project">PEA Project</a></li>
+<li><a href="#applied-experience">Applied Experience</a></li>
 </ul>
 </nav>
                         </div>
+                        
                     </div>
                     
         
@@ -335,7 +176,7 @@
                 
                         
 
-<h1 id="sub-section-1">Sub section 1</h1>
+<h1 id="introduction">Introduction</h1>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac. Quisque rhoncus dapibus felis, quis pellentesque odio semper et. Aliquam non lectus enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                 
@@ -344,7 +185,7 @@
                 
                         
 
-<h1 id="sub-section-2">Sub Section 2</h1>
+<h1 id="pea-project">PEA Project</h1>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac. Quisque rhoncus dapibus felis, quis pellentesque odio semper et. Aliquam non lectus enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                 
@@ -353,9 +194,9 @@
                 
                         
 
-<h1 id="sub-section-2-1">Sub Section 2</h1>
+<h1 id="applied-experience">Applied Experience</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac. Quisque rhoncus dapibus felis, quis pellentesque odio semper et. Aliquam non lectus enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+<p>Lorem ipsum dolor sit amet, <a href="./files/1735714_COOP_Report.pdf">COOP Report for Summer 2018</a></p>
                 
         
                 
@@ -375,6 +216,8 @@
 </body>
 
 </html>
+    
+
     
 
     

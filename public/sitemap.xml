@@ -7,15 +7,11 @@
   </url>
   
   <url>
-    <loc>/applied-experience/</loc>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>/communication/</loc>
+    <loc>/communications/</loc>
   </url>
   
   <url>
@@ -27,15 +23,19 @@
   </url>
   
   <url>
+    <loc>/home/</loc>
+  </url>
+  
+  <url>
     <loc>/implementation/</loc>
   </url>
   
   <url>
-    <loc>/introduction/</loc>
+    <loc>/maintenance/</loc>
   </url>
   
   <url>
-    <loc>/maintenance/</loc>
+    <loc>/process/</loc>
   </url>
   
   <url>
@@ -51,11 +51,11 @@
   </url>
   
   <url>
-    <loc>/software-development-process/</loc>
+    <loc>/tags/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/team-environment/</loc>
   </url>
   
   <url>
@@ -64,10 +64,6 @@
   
   <url>
     <loc>/training/</loc>
-  </url>
-  
-  <url>
-    <loc>/working-environment/</loc>
   </url>
   
 </urlset>
