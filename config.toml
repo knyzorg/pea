@@ -3,42 +3,16 @@ title = "Program Exit Assessment"
 relativeURLs = true
 
 [[menu.main]]
-name = "Introduction"
-identifier = "introduction"
-url = "/introduction"
+weight = 1
+name = "Initiation"
+url = "/process"
 
 [[menu.main]]
-name = "Software Development Process"
-identifier = "software-development-process"
-url = "/software-development-process"
-
-[[menu.main]]
-name = "Working Environmnet"
-identifier = "working-environment"
-url = "/working-environment"
-
-[[menu.main]]
-name = "Project Management"
-identifier = "project-management"
-url = "/project-management"
-
-[[menu.main]]
-name = "Requirements"
-identifier = "requirements"
+weight = 2
+name = "Construction"
 url = "/requirements"
 
 [[menu.main]]
-name = "Training"
-identifier = "training"
-url = "/training"
-
-[[menu.main]]
-name = "Design"
-identifier = "design"
-url = "/design"
-
-[[menu.main]]
-name = "Test"
-identifier = "test"
-# parent = "introduction"
-url = "/test"
+weight = 3
+name = "Release"
+url = "/deployment"
