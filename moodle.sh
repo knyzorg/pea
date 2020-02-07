@@ -18,4 +18,6 @@ done
 
 sed -i 's/\/\"/\.html"/g' index.html
 sed -i 's/"\.\.\//"\.\//g' ../$folder.html
+rm -rf tags categories
+rm index.xml
 cd ..
