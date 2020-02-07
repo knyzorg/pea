@@ -1,0 +1,207 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #333;
+    margin: auto;
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-indent: 2em;
+    text-align: justify;
+    flex: 2;
+}
+
+/* p::first-letter {
+    color: #6A5F4B;
+} */
+
+a {
+    color: #E9A821;
+    text-decoration: none;
+}
+a:hover {
+    color: #6A5F4B;
+    text-decoration: underline;
+}
+
+.banner {
+    color: #eee;
+    background: url(https://csdev.cegep-heritage.qc.ca/Students/1735714/vknyazev_E50_A01_PEA/images/android-chrome-512x512.png) no-repeat 5px 5px, linear-gradient(120deg, #E9A821, #6A5F4B);
+    background-size: 60px, auto;
+    padding: 45px 0;
+}
+
+.title {
+    font-size: 3.2em;
+}
+.banner .title {
+    color: #fff;
+}
+
+.subtitle {
+    color: #eee;
+    font-size: 1.2em;
+}
+
+.navigation {
+    padding: 35px;
+    font-weight: bold;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.navigation ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    flex: 1 0 0;
+    min-width: 33.33%;
+}
+
+
+ul.subnav {
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    transition: all 0.3s ease-out;
+    opacity: 0.3;
+}
+
+
+.navigation ul li a {
+    color: #ddd;
+    background-color: #ffffff10;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #eeeeee70;
+    text-align: center;
+    width: 100%;
+}
+
+.navigation ul li a:hover {
+    background-color: #ffffff30;
+    text-decoration: none;
+}
+
+/*.navigation ul li:hover ul.subnav, */.navigation ul li a:focus + ul.subnav {
+    max-height: 500px;
+    transition: all 0.3s ease-in;
+    opacity: 1;
+}
+
+.container {
+    padding: 10px;
+    background-color: #fff;
+    color: #696969;
+}
+
+.header {
+    text-align: center;
+    padding: 15px;
+}
+
+.content {
+    max-width: 750px;
+    width: 100%;
+    margin: auto;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.TableOfContents {
+    width: 300px;
+    max-width: 100%;
+    background-color: #eeeeee70;
+    border: 1px solid #eee;
+    margin: auto;
+    text-align: left;
+    flex: 1;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+hr {
+    color: #E9A821;
+}
+
+.split {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+}
+@media screen and (min-width: 1200px) {
+    .split {
+        position: relative;
+    }
+    .TableOfContents {
+        position: absolute;
+        left: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .split {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: stretch;
+    }
+    .navigation ul li {
+        min-width: 100%;
+    }
+    .banner {
+        padding: 0;
+    }
+    .navigation {
+        padding: 5px;
+    }
+    .title {
+        font-size: 1.5em;
+    }
+    .subtitle {
+        font-size: 0.65em;
+    }
+    .banner {
+        background-size: 32px, auto;
+        
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+    .divider {
+        display: block;
+    }
+
+    .subnav {
+        font-weight: normal;
+    }
+}

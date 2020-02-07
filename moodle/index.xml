@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Program Exit Assessment</title>
+    <link>/</link>
+    <description>Recent content on Program Exit Assessment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analysis</title>
+      <link>/analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/analysis/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+    </item>
+    
+    <item>
+      <title>Communications</title>
+      <link>/communications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/communications/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+    </item>
+    
+    <item>
+      <title>Deployment</title>
+      <link>/deployment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/deployment/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>/design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/design/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+    </item>
+    
+    <item>
+      <title>Implementation</title>
+      <link>/implementation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/implementation/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/introduction/</guid>
+      <description>My name is Viacheslav Knyazev, and this website is my Program Exit Assessment (PEA) digital portfolio. The purpose of the PEA is to demonstrate the achievement of the objectives and standards set by the Computer Science Program Faculty at Heritage College as well as the integration of all learning within the program. Additionally, it may be used to complement my resume. The website describes the development of my PEA project and is divided into sections covering initiation, construction, maintenance, communications and release.</description>
+    </item>
+    
+    <item>
+      <title>Maintenance</title>
+      <link>/maintenance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/maintenance/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/process/</guid>
+      <description>Agile is a software development methodology which values individuals over processes, working software over documentation, customer collaboration over negotiations and, responding to change over following a plan. These are manifested through the processes which Agile promotes, namely Sprint and Scrum.
+User Stories &amp;amp; Acceptance Criteria At its foundation, Agile approaches the software development process as the gradual completion of user stories. A user story is a short, simple description of a feature told from the perspective of someone using the system, stated in the form of &amp;ldquo;As a type of user, I want to some action so that some reason.</description>
+    </item>
+    
+    <item>
+      <title>Project Management</title>
+      <link>/project-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project-management/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/requirements/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+    </item>
+    
+    <item>
+      <title>Team Environment</title>
+      <link>/team-environment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team-environment/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/test/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+    </item>
+    
+    <item>
+      <title>Training</title>
+      <link>/training/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/training/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+    </item>
+    
+  </channel>
+</rss>
