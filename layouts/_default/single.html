@@ -61,7 +61,12 @@
         <div class="header">
             <div class="content">
                 <div class="split">
-                    <h1>{{ .Title }} {{ if (eq .Title "Introduction") }} (Objective 1) {{ end }} </h1>
+                    <h1>{{ .Title }}
+                        {{ if (eq .Title "Introduction") }} (Objective 1) {{ end }}
+                        {{ if (eq .Title "Team Environment") }} (Objective 3) {{ end }}
+                        {{ if (eq .Title "Project Management") }} (Objective 4) {{ end }}
+                        {{ if (eq .Title "Requirements") }} (Objective 5) {{ end }}
+                    </h1>
                     
                 </div>
                 <hr>

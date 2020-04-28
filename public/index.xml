@@ -25,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/communications/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+      <description>Research Project The systems class featured a research portion where we were to present new subjects which could be incorporated into the Heritage program. I presented the Rust programming language and have found that it would be beneficial to include it in the curiculuum as it a powerful tool for teaching memory constructs. The project featured a report and a presentation</description>
     </item>
     
     <item>
@@ -43,7 +43,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/design/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+      <description>Database (Deliverable 7) The TLC system featured the use of two databases, the system’s own database and the Clara database. The system database was responsible for tracking all the moving parts of the system while the purpose of Clara was for retrieving student, teacher and course information such as their names.
+The Physical Data Model A physical data model represents the physical SQL tables which store the data. They are represented in the picture below.</description>
     </item>
     
     <item>
@@ -52,7 +53,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/implementation/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+      <description>One of the workflows I worked on in the TLC system were the queue management operations. This workflow entails a teacher logging in, adding students to the queue, re-ordering them, activating them and removing them.</description>
     </item>
     
     <item>
@@ -89,7 +90,8 @@ User Stories &amp;amp; Acceptance Criteria At its foundation, Agile approaches t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/project-management/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+      <description>The project management aspect of the project started as early as the introductions to the projects were made. As a team, we made high-level estimates of the projects using the table-top method, where we placed the different projects’ complexity relative to one-another. This gave us the list of projects, ordered by size.
+Product &amp;amp; Sprint Backlogs The work items to be completed for a project are kept in the product backlog in order to track and organize user stories.</description>
     </item>
     
     <item>
@@ -98,7 +100,7 @@ User Stories &amp;amp; Acceptance Criteria At its foundation, Agile approaches t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/requirements/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+      <description>Academic Services are always seeking to optimize allocation of its resources. In so far as the TLC is concerned, they are interesting in measuring, among other things, demand for help. Up until now, Academic Services have been working with non-machine readable, and inaccurate data coming from the TLC. This data was produced by students checking into the TLC by writing down their student number and topic in a notebook. While the lack of machine-readability is clear, the inaccuracy was in large part due to students forgetting to use the notebook or not being aware of it altogether.</description>
     </item>
     
     <item>
@@ -107,7 +109,7 @@ User Stories &amp;amp; Acceptance Criteria At its foundation, Agile approaches t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/team-environment/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+      <description>During the course of Development Project I and II, the teams for each project were staffed according to complexity with team sizes ranging from 4 to 6 people. My team was composed of four members: Cody Douris-Peeke, Patrick Mirowski, Thomas Palaisy and myself. We worked efficiently in a conflict-free manner while trying to be as helpful as possible to one another. Each of us naturally drifted into a particular overlapping niche aspect of the project, and always knew what we needed to do.</description>
     </item>
     
     <item>
@@ -116,7 +118,8 @@ User Stories &amp;amp; Acceptance Criteria At its foundation, Agile approaches t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/test/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+      <description>Unit Testing Our team developed unit tests with XUnit as developement went on, which we ran when making making changes in order both test the new code and detect regressions.
+Test Categories We tested the system for functionality such that the features users expected was were working, for usability such that it was easy to navigate, for compatibility by testing in different browsers, for security by testing for common vulnerabilities and for business cycles we chcked that the individual user flows.</description>
     </item>
     
     <item>

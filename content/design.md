@@ -6,8 +6,33 @@ menu:
         parent: "Construction"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac. Quisque rhoncus dapibus felis, quis pellentesque odio semper et. Aliquam non lectus enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
-# Another Topic
+# Database (Deliverable 7)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac. Quisque rhoncus dapibus felis, quis pellentesque odio semper et. Aliquam non lectus enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+The TLC system featured the use of two databases, the system’s own database and the Clara database. The system database was responsible for tracking all the moving parts of the system while the purpose of Clara was for retrieving student, teacher and course information such as their names. 
+
+# The Physical Data Model
+
+A physical data model represents the physical SQL tables which store the data. They are represented in the picture below. 
+
+![Physical Data Model](/images/physical.jpg)  
+
+# Database Analysis
+
+The concept of referential integrity is the idea that for a foreign key pointing another row, that row is guaranteed to exist. This is accomplished through a number of techniques in regards to how the database copes with the removal of a referenced row.
+
+Integrity between the system database and the Clara database is not enforced, as they are completely separate systems where Clara only exposes a set of views which cannot have foreign keys applied to them. This could be problematic in situations such as courses being used by the application disappearing from Clara. Cases like these would need to be dealt with in application code, as we don’t have the means to do it purely in the data layer.
+
+Entity Framework offers 3 approaches to working with databases: code-first, database-first and model-first. We used code-first for the entirety of the application, while modifying the migration code to allow it to work with Clara views instead of physical tables. The main advantage of this approach is the convenience of tracking changes to our model in a single place, instead of requiring changes in both the models and the physical database entities. Model first wouldn’t work as .NET Core doesn’t support it.
+
+## Database Access Paths
+
+The most important tables used by the syste mare the Group and Schedule are the most important, as they hold data for the schedule and the queue information. Group has groupdId and schedule has scheduleId. Group will have all of the sessions therefore we needed a groupId for each, and for scheduleId it is there because schedule will hold every slot that had been added in the schedule. Then there is DepartmentOpenness which has departmentOpennessId. These tables reference Clara views, which cannot be under foreign keys.
+
+## The Design Models for the System
+
+Our model design has been layered with a database layer (SQL Server), database access layer (Entity Framework), login layer and user interface layer. Layering the model design in such a manner made it possible to theoretically swap out any of the layers with ease.
+
+# The Data Security Plan
+
+My [security plan](/files/vknyazev_securityplan.docx) outlines the testing done to ensure the security of the project, where the main concern has been authorization issues.
