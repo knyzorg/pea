@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/analysis/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+      <description>Technical Assessment The decision behind selecting our chosen architecture of ASP.NET MVC with Entity Framework Code-First on .NET Core, was based on the fact the Microsoft has effectively deprecated .NET Framework by encouraging developers to choose .NET Core whenever possible. Following this, Web Forms is unsupported by ASP.NET Core, forcing us to go with MVC. While this decision limited the libraries we could use due to them lacking .</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/communications/</guid>
-      <description>Research Project The systems class featured a research portion where we were to present new subjects which could be incorporated into the Heritage program. I presented the Rust programming language and have found that it would be beneficial to include it in the curiculuum as it a powerful tool for teaching memory constructs. The project featured a report and a presentation</description>
+      <description>Research Project The systems class featured a research portion which was completed gradually throughout the milestones set by the course. In this research project we were to present new subjects which could be incorporated into the Heritage program. I presented the Rust programming language and have found that it would be beneficial to include it in the curiculuum within the second year programming courses as it a powerful tool for teaching memory constructs.</description>
     </item>
     
     <item>
@@ -34,7 +34,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/deployment/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+      <description>The procedure to deploy the TLC system is straight-forward and standard. It includes installing dependencies, setting up a database and publishing to IIS.
+Dependencies In order to be able to publish the system, the publishing system needs to have two dependencies installed: .NET Core SDK and NodeJS. The former is necessary to compile the application, while the latter is required to compile the JavaScript assets as part of the build process.</description>
     </item>
     
     <item>
@@ -53,7 +54,8 @@ The Physical Data Model A physical data model represents the physical SQL tables
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/implementation/</guid>
-      <description>One of the workflows I worked on in the TLC system were the queue management operations. This workflow entails a teacher logging in, adding students to the queue, re-ordering them, activating them and removing them.</description>
+      <description>One of the workflows I worked on in the TLC system were the queue management operations. This workflow entails a teacher logging in, adding students to the queue, re-ordering them, activating them and removing them.
+This workflow is demonstrated in the video below.</description>
     </item>
     
     <item>
@@ -71,7 +73,9 @@ The Physical Data Model A physical data model represents the physical SQL tables
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/maintenance/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+      <description>Types of Maintenance Projects The maintenance course covered the different types of maintenance (Corrective, Adaptive, Perfective, Preventitive) and their respective purposes.
+Corrective Maintenance Corrective maintenance is for fixing issues which were not addressed during the development phase of the project such as bugs.
+Adaptive Maintenance Adaptive maintenance is for adapting the system&amp;rsquo;s internals in order to allow to it to run in a different environment such as a different OS or different database.</description>
     </item>
     
     <item>
@@ -109,17 +113,17 @@ Product &amp;amp; Sprint Backlogs The work items to be completed for a project a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/team-environment/</guid>
-      <description>During the course of Development Project I and II, the teams for each project were staffed according to complexity with team sizes ranging from 4 to 6 people. My team was composed of four members: Cody Douris-Peeke, Patrick Mirowski, Thomas Palaisy and myself. We worked efficiently in a conflict-free manner while trying to be as helpful as possible to one another. Each of us naturally drifted into a particular overlapping niche aspect of the project, and always knew what we needed to do.</description>
+      <description>During the course of Development Project I and II, the teams for each project were staffed according to complexity with team sizes ranging from 4 to 6 people. My team was composed of four members: Cody Douris-Peeke, Patrick Mirowski, Thomas Palaisy and myself. We worked efficiently in a conflict-free manner while trying to be as helpful as possible to one another. Each of us naturally drifted into a preferred aspect of the project, and always knew what needed to be done, coordinated by our assisant project manager (APM).</description>
     </item>
     
     <item>
-      <title>Test</title>
+      <title>Testing</title>
       <link>/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/test/</guid>
-      <description>Unit Testing Our team developed unit tests with XUnit as developement went on, which we ran when making making changes in order both test the new code and detect regressions.
-Test Categories We tested the system for functionality such that the features users expected was were working, for usability such that it was easy to navigate, for compatibility by testing in different browsers, for security by testing for common vulnerabilities and for business cycles we chcked that the individual user flows.</description>
+      <description>Unit Testing Our team developed unit tests with XUnit as developement went on, which we ran when making making changes in order both test the new code and detect regressions. The purpose of unit tests is to perform tests on individual functions in isolation from the rest of the system. Below is an example of the structure of a unit test.
+Test Categories We tested the system for functionality such that the features users expected was were working, for usability such that it was easy to navigate, for compatibility by testing in different browsers, for security by testing for common vulnerabilities and for business cycles we chcked that the individual user flows were functional.</description>
     </item>
     
     <item>
@@ -128,7 +132,8 @@ Test Categories We tested the system for functionality such that the features us
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/training/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac.</description>
+      <description>The linear nature of the business flows within our system allows training to be very light. A video demonstrating each flow would suffice. The flows for teachers are queue management, schedule management and reporting. For students, the system provides detailed guidance throughout their flow.
+Additionally, the application features guidance throughout the system with tooltips, text fragments and a complete FAQ for use-case walkthroughs and answers to possible concerns.</description>
     </item>
     
   </channel>

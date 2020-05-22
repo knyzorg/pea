@@ -1,0 +1,171 @@
+﻿.answer {
+    border: 1px solid #dee2e6;
+    padding: 1%;
+}
+.faq-img {
+    padding: 1px;
+    border: 2px solid black;
+}
+.faq-button {
+    color:#fff;
+    width: 100%;
+    background-color: #e89d00;
+}
+.faq-button:hover {
+    color: #fff;
+    background-color: #ffae00;
+    border-color: #e89d00;
+}
+.profile-image{
+    border-radius:50%;
+    width:24px;
+    height:24px;
+    vertical-align:middle;
+}
+ul li{
+    /*float:right;*/
+    justify-content:flex-end;
+}
+.text-heritage {
+    color: #bf8100 !important;
+}
+nav a span.text-heritage {
+    font-size: 0.84em;
+}
+#add-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+body {
+    background-color:white;
+    background-image:none !important;
+}
+.session {
+    border-bottom: 1px solid lightgrey;
+    background-color: #fff;
+    padding: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.table-responsive{
+    display: table !important;
+}
+.fa-play {
+    font-size: 35px;
+    color: #bf8100;
+}
+.pic {
+    border-radius: 50% 50%;
+}
+.fa-bars {
+    font-size: 35px;
+    color: gray;
+}
+.fa-times{
+    font-size: 35px;
+    color: red;
+}
+.fa-play-circle {
+    font-size: 35px;
+    color: #82c91e;
+}
+.pic--small {
+    height: 50px;
+    width: 50px;
+}
+.pic--medium {
+    height: 100px;
+    width: 100px;
+}
+.icon {
+    background: #ccc;
+    text-align: center;
+    padding-top: calc(50px - 2.5em);
+    font-weight: bold;
+    color: #555;
+}
+.uq {
+    position: absolute;
+    z-index: 3;
+    top: 50px;
+    left: 370px;
+}
+.divide {
+    border-bottom: #777 solid thin;
+}
+.dashboard-nav{
+    display: block !important;
+}
+#content-wrap {
+    padding-bottom: 2.5rem;
+    background-color: #fff;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.inSession::after {
+    content: "►";
+    font-size: 55px;
+    color: #82c91e;
+    opacity: 0.6;
+}
+.identitiyLabel{
+    font-size: 16px;
+}
+.schedule {
+    height: 15px;
+    width: 15px;
+}
+.timeTd {
+    height: 50px;
+    width: 50px;
+}
+.tdRemove:hover {
+    background-color: red;
+    cursor: pointer;
+}
+.tdAdd:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 371px) {
+    nav a span.text-heritage {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 371px) {
+    .margin-left {
+        margin-left: auto;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .faq-button {
+        width: 75%;
+    }
+
+    .not-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+
+.faq-button,
+.resp-Width {
+        width: 66%;
+        margin-top: 0;
+    }
+}
+
+
+@media only screen and (min-width: 1500px) {
+    .resp-Width {
+        width: 45%;
+        margin-top: 0;
+    }
+}

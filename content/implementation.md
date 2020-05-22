@@ -8,4 +8,6 @@ menu:
 
 One of the workflows I worked on in the TLC system were the queue management operations. This workflow entails a teacher logging in, adding students to the queue, re-ordering them, activating them and removing them.
 
+This workflow is demonstrated in the video below.
+
 <video controls style="width:100%" src="/files/video.mp4">

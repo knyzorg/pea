@@ -41,7 +41,7 @@ a:hover {
 
 .banner {
     color: #eee;
-    background: url(https://csdev.cegep-heritage.qc.ca/Students/1735714/vknyazev_E50_A01_PEA/images/android-chrome-512x512.png) no-repeat 5px 5px, linear-gradient(120deg, #E9A821, #6A5F4B);
+    background: url(../images/android-chrome-512x512.png) no-repeat 5px 5px, linear-gradient(120deg, #E9A821, #6A5F4B);
     background-size: 60px, auto;
     padding: 45px 0;
 }
@@ -89,7 +89,6 @@ ul.subnav {
     max-height: 0;
     overflow: hidden;
     flex-wrap: nowrap;
-    transition: all 0.3s ease-out;
     opacity: 0.3;
 }
 
@@ -110,9 +109,8 @@ ul.subnav {
     text-decoration: none;
 }
 
-/*.navigation ul li:hover ul.subnav, */.navigation ul li a:focus + ul.subnav {
+/*.navigation ul li:hover ul.subnav, */.navigation ul li a.open + ul.subnav {
     max-height: 500px;
-    transition: all 0.3s ease-in;
     opacity: 1;
 }
 
@@ -160,7 +158,7 @@ hr {
     flex-direction: row;
     align-content: stretch;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1600px) {
     .split {
         position: relative;
     }
@@ -169,7 +167,7 @@ hr {
         left: 100%;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .split {
         display: flex;
         flex-direction: column-reverse;

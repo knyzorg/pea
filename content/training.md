@@ -6,4 +6,7 @@ menu:
         parent: "Release"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non leo eu ligula consectetur tincidunt id eu justo. Suspendisse hendrerit dolor dolor, nec pulvinar turpis tincidunt bibendum. Quisque sodales libero sit amet condimentum elementum. Nunc sed cursus massa, sit amet faucibus massa. Aenean venenatis congue eros eget hendrerit. Suspendisse pellentesque elit purus, eget fermentum arcu consectetur a. Nulla pretium massa vel velit rhoncus egestas. Etiam pellentesque faucibus diam, vitae varius orci blandit ac. Quisque rhoncus dapibus felis, quis pellentesque odio semper et. Aliquam non lectus enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+The linear nature of the business flows within our system allows training to be very light. A video demonstrating each flow would suffice. The flows for teachers are queue management, schedule management and reporting. For students, the system provides detailed guidance throughout their flow. 
+
+
+Additionally, the application features guidance throughout the system with tooltips, text fragments and a complete FAQ for use-case walkthroughs and answers to possible concerns.
